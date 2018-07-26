@@ -1,0 +1,85 @@
+/* wire-frame homework */
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+    background-color:gray;
+    margin: 0 auto;
+}
+
+#middle {
+    width: 960px;
+
+}
+
+
+body {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+ }
+header, nav, footer {
+    
+    background: #ebebeb;
+    padding: 30px;
+    width: 960px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+   
+}
+p {
+    background: #ebebeb;
+    color: gray;
+    padding: 10px 0 ;
+
+
+}
+p:first-child {
+    margin-bottom: 10px;
+
+}
+
+
+article {
+    background: gray;
+    color: #ebebeb;
+    padding: 20px 10px 10px 10px;
+
+
+}
+
+aside {
+
+    background: #ebebeb;
+    padding-top: 20px;
+    width: 400px;
+    margin-top: 20px;
+    height: 225px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    float: right;
+    
+}
+
+section {
+
+    background: #ebebeb;
+    padding: 20px 10px 0;
+    width: 540px;
+    margin-top: 20px;
+    height: 225px;
+    margin-bottom: 20px;
+    float: left;
+    
+    
+
+
+
+}
+
